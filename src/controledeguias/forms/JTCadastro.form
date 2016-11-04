@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel5"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jTextField5"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField13">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jTextField13"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Controle de guias"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,59,0,0,4,-64"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
+    <SyntheticProperty name="generateSize" type="boolean" value="true"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPCadastroBotoesGuia" min="-2" max="-2" attributes="0"/>
+                  <Component id="jPCadastroPaciente" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="jPCadastroBotoesPaciente" alignment="0" pref="710" max="32767" attributes="0"/>
+                      <Component id="jPCadastroGuia" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jBcadastroSair" min="-2" pref="83" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jLCadastroPesquisaPaciente" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jTCadastroPesquisaPaciente" min="-2" pref="238" max="-2" attributes="0"/>
+                      <EmptySpace pref="101" max="32767" attributes="0"/>
+                      <Component id="jBCadastroPesquisaPaciente" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane2" alignment="1" pref="460" max="32767" attributes="0"/>
+                          <Component id="jScrollPane1" alignment="1" max="32767" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="jBCadastroPesquisaGuia" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="jLCadastroPesquisaPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTCadastroPesquisaPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="jBCadastroPesquisaPaciente" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="180" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jBCadastroPesquisaGuia" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jPCadastroPaciente" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jPCadastroBotoesPaciente" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPCadastroGuia" min="-2" max="-2" attributes="0"/>
+                  <Component id="jScrollPane2" min="-2" pref="209" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPCadastroBotoesGuia" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="jBcadastroSair" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPCadastroPaciente">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Cadastro Paciente"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jLCadastroIdPaciente" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLCadastroMatricula" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLCadastroNome" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLCadastroIdade" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelConvenio" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jTCadastroIdPaciente" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                      <Component id="jTCadastroNome" alignment="0" min="-2" pref="296" max="-2" attributes="0"/>
+                      <Component id="jTCadastroIdade" alignment="0" min="-2" pref="42" max="-2" attributes="0"/>
+                      <Component id="jTCadastroMatriculaNoConenio" alignment="0" min="-2" pref="143" max="-2" attributes="0"/>
+                      <Component id="jTextFieldConvenio" alignment="0" min="-2" pref="116" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="267" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLCadastroIdPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTCadastroIdPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLCadastroNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTCadastroNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLCadastroMatricula" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTCadastroMatriculaNoConenio" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLCadastroIdade" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTCadastroIdade" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabelConvenio" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextFieldConvenio" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="21" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLCadastroIdPaciente">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Id paciiente: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLCadastroNome">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nome: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLCadastroMatricula">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Matricula no convenio: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLCadastroIdade">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Idade: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTCadastroIdPaciente">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTCadastroIdPacienteActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTCadastroNome">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTCadastroMatriculaNoConenio">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTCadastroIdade">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelConvenio">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Conv&#xea;nio"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldConvenio">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPCadastroGuia">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Cadastro Guias"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLCadastroObservacao" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLCadastroLocalizacao" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLCadastroCirurgia" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLCadastroNumeroGuia" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLCadastroIdGuia" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLCadastroStatusDaGuia" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jTCadastroIdGuia" alignment="0" min="-2" pref="113" max="-2" attributes="0"/>
+                              <Component id="jTCadastroNumeroDaGuia" alignment="0" min="-2" pref="164" max="-2" attributes="0"/>
+                              <Component id="jTCadastroLocalizacao" alignment="0" min="-2" pref="164" max="-2" attributes="0"/>
+                              <Component id="jTCadastroObservacao" alignment="0" min="-2" pref="139" max="-2" attributes="0"/>
+                              <Component id="jTCadastroCirurgia" min="-2" pref="253" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="32" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jLCadastraIdPacienteGuia" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLCadastroNumeroDoProntuario" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jTCadastroIdPacienteGuia" min="-2" pref="118" max="-2" attributes="0"/>
+                                      <Component id="jTCadastroNumeroDoProntuario" alignment="0" min="-2" pref="161" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLCadastroMedicoDaGuia" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLCadastroDataDaGuia" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLCadastroDataDoProntuario" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jTCadastroMedicoDaGuia" min="-2" pref="161" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="jFormattedTextFieldDataProntuario" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jFormattedTextFieldDataGuia" alignment="0" pref="115" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="jTCadastroStatusDaGuia" min="-2" pref="161" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLCadastroIdGuia" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTCadastroIdGuia" alignment="3" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLCadastroNumeroGuia" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTCadastroNumeroDaGuia" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLCadastroCirurgia" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTCadastroCirurgia" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLCadastroLocalizacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTCadastroLocalizacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jLCadastroObservacao" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTCadastroObservacao" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLCadastroMedicoDaGuia" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTCadastroMedicoDaGuia" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLCadastroDataDaGuia" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jFormattedTextFieldDataGuia" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLCadastroDataDoProntuario" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jFormattedTextFieldDataProntuario" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLCadastroNumeroDoProntuario" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTCadastroNumeroDoProntuario" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLCadastraIdPacienteGuia" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTCadastroIdPacienteGuia" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jTCadastroStatusDaGuia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLCadastroStatusDaGuia" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLCadastroIdGuia">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Id guia: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLCadastroNumeroGuia">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Numero da guia: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLCadastroCirurgia">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cirugia: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLCadastroLocalizacao">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Localiza&#xe7;&#xe3;o: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLCadastroObservacao">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Observa&#xe7;&#xe3;o: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLCadastroStatusDaGuia">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Status da guia: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLCadastroMedicoDaGuia">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="M&#xe9;dico da guia: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLCadastroDataDaGuia">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Data da guia: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLCadastroDataDoProntuario">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Data do prontuario: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLCadastroNumeroDoProntuario">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Numero do prontuario: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLCadastraIdPacienteGuia">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Id paciente: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTCadastroIdGuia">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTCadastroNumeroDaGuia">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTCadastroCirurgia">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTCadastroLocalizacao">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTCadastroObservacao">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTCadastroStatusDaGuia">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTCadastroMedicoDaGuia">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTCadastroNumeroDoProntuario">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTCadastroIdPacienteGuia">
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="jFormattedTextFieldDataGuia">
+          <Properties>
+            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+              <Format format="##/##/####" subtype="-1" type="5"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="jFormattedTextFieldDataProntuario">
+          <Properties>
+            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+              <Format format="##/##/####" subtype="-1" type="5"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPCadastroBotoesPaciente">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jBCadastroSalvaPaciente" min="-2" pref="138" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jBCadastroExcluiPaciente" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jBCadastroAlteraPaciente" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                  <Component id="jBCadastroLimpaCampoPaciente" min="-2" pref="134" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                  <Component id="jBCadastroNovoPaciente" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jBCadastroSalvaPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jBCadastroLimpaCampoPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jBCadastroAlteraPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jBCadastroExcluiPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jBCadastroNovoPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="jBCadastroSalvaPaciente">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imangens/user_add.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Salva paciente"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBCadastroSalvaPacienteActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jBCadastroLimpaCampoPaciente">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imangens/user.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Limpa campo"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBCadastroLimpaCampoPacienteActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jBCadastroAlteraPaciente">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imangens/user_edit.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Altera paciente"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBCadastroAlteraPacienteActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jBCadastroExcluiPaciente">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imangens/user_delete.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Exclui paciente"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBCadastroExcluiPacienteActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jBCadastroNovoPaciente">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imangens/add.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Novo Paciente"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBCadastroNovoPacienteActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPCadastroBotoesGuia">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jBCadastroSalvaGuia" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jBCadastroExcluiGuia" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jBCadastroAlteraGuia" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jBCadastroLimpaCampoGuia" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="113" max="32767" attributes="0"/>
+                  <Component id="jBCadastroNovaGuia" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jBCadastroSalvaGuia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jBCadastroLimpaCampoGuia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jBCadastroExcluiGuia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jBCadastroAlteraGuia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jBCadastroNovaGuia" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="jBCadastroSalvaGuia">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imangens/table_add.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Salva guia"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBCadastroSalvaGuiaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jBCadastroLimpaCampoGuia">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imangens/table.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Limpa campo guia"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBCadastroLimpaCampoGuiaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jBCadastroExcluiGuia">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imangens/table_delete.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Exclui guia"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBCadastroExcluiGuiaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jBCadastroAlteraGuia">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imangens/table_edit.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Altera guia"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBCadastroAlteraGuiaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jBCadastroNovaGuia">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imangens/add.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Nova guia"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBCadastroNovaGuiaActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTCadastroExibePaciente">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="tmPaciente" type="code"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="jTCadastroExibePaciente.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);&#xd;&#xa;lsmPaciente = jTCadastroExibePaciente.getSelectionModel();&#xd;&#xa;lsmPaciente.addListSelectionListener(new ListSelectionListener(){&#xd;&#xa;&#x9;public void valueChanged(ListSelectionEvent e){&#xd;&#xa;&#x9;&#x9;if (! e.getValueIsAdjusting()){&#xd;&#xa;&#x9;&#x9;&#x9;jTTabelaLinhaSelecionadaPaciente(jTCadastroExibePaciente);&#xd;&#xa;&#x9;&#x9;}&#xd;&#xa;&#x9;}&#xd;&#xa;});&#xd;&#xa;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTCadastroExibeGuia">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="tmGuia" type="code"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="jTCadastroExibeGuia.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);&#xd;&#xa;lsmGuia = jTCadastroExibeGuia.getSelectionModel();&#xd;&#xa;lsmGuia.addListSelectionListener(new ListSelectionListener(){&#xd;&#xa;&#x9;public void valueChanged(ListSelectionEvent e){&#xd;&#xa;&#x9;&#x9;if (! e.getValueIsAdjusting()){&#xd;&#xa;&#x9;&#x9;&#x9;jTTabelaLinhaSelecionadaGuia(jTCadastroExibeGuia);&#xd;&#xa;&#x9;&#x9;}&#xd;&#xa;&#x9;}&#xd;&#xa;});&#xd;&#xa;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JTextField" name="jTCadastroPesquisaPaciente">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLCadastroPesquisaPaciente">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pesquisa: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jBCadastroPesquisaPaciente">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imangens/zoom.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBCadastroPesquisaPacienteActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jBCadastroPesquisaGuia">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imangens/table_go.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Pesquisa guia do paciente"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBCadastroPesquisaGuiaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jBcadastroSair">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial Black" size="11" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="cc" type="rgb"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imangens/door_in.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Sair"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBcadastroSairActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
